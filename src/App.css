@@ -49,12 +49,6 @@ body {
   margin: 0;
 }
 
-.app__subtitle {
-  margin: 0.5rem 0 0;
-  font-size: 0.95rem;
-  color: var(--text-muted);
-}
-
 .app__main {
   display: flex;
   flex-direction: column;
