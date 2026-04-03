@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="app">
       <header className="app__header">
-        <h1 className="app__title">极简待办清单</h1>
+        <h1 className="app__title">Modern Zen Todo</h1>
       </header>
       <main className="app__main">
         {error && (
