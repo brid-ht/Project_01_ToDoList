@@ -1,0 +1,13 @@
+/* 颜色主题变量定义 */
+:root {
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --border: #e2e8f0;
+  --text: #1e293b;
+  --text-muted: #64748b;
+  --accent: #5b7c99;
+  --accent-hover: #4a6a85;
+  --done: #94a3b8;
+  --danger: #dc2626;
+  --danger-hover: #b91c1c;
+}
