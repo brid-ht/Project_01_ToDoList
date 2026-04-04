@@ -11,6 +11,7 @@
   --done: #94a3b8;
   --danger: #dc2626;
   --danger-hover: #b91c1c;
+  --white: #ffffff;
   --radius: 12px;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
   --shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -111,7 +112,7 @@ body {
   border: none;
   border-radius: 8px;
   background: var(--accent);
-  color: #fff;
+  color: var(--white);
   font-size: 0.95rem;
   font-weight: 500;
   cursor: pointer;
@@ -224,7 +225,7 @@ body {
 .todo-item__check {
   width: 6px;
   height: 10px;
-  border: solid #fff;
+  border: solid var(--white);
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
   margin-bottom: 3px;
