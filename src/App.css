@@ -1,7 +1,7 @@
 /* 极简待办清单 - 主样式 */
 
 :root {
-  --bg: #f8fafc;
+  --bg: #f8fafc; /* Base background */
   --surface: #ffffff;
   --border: #e2e8f0;
   --text: #1e293b;
