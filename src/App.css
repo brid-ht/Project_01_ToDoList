@@ -14,10 +14,10 @@
   --text-secondary: #a8a8a6;
   --text-muted: #5c5c5a;
   
-  /* 强调色 - 暖金色调 */
-  --accent: #c9a962;
-  --accent-soft: rgba(201, 169, 98, 0.15);
-  --accent-glow: rgba(201, 169, 98, 0.3);
+  /* 强调色 - 清新青绿色调 */
+  --accent: #5eead4;
+  --accent-soft: rgba(94, 234, 212, 0.15);
+  --accent-glow: rgba(94, 234, 212, 0.3);
   
   /* 功能色 */
   --success: #4ade80;
@@ -27,7 +27,7 @@
   
   /* 边框与分割 */
   --border-subtle: rgba(255, 255, 255, 0.06);
-  --border-accent: rgba(201, 169, 98, 0.3);
+  --border-accent: rgba(94, 234, 212, 0.3);
   
   /* 圆角 */
   --radius-sm: 6px;
@@ -37,7 +37,7 @@
   /* 阴影 */
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.4);
-  --shadow-glow: 0 0 40px rgba(201, 169, 98, 0.1);
+  --shadow-glow: 0 0 40px rgba(94, 234, 212, 0.1);
   
   /* 过渡 */
   --transition-fast: 0.15s ease;
@@ -69,8 +69,8 @@ body::before {
   right: 0;
   bottom: 0;
   background: 
-    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(201, 169, 98, 0.08), transparent),
-    radial-gradient(ellipse 60% 40% at 100% 100%, rgba(201, 169, 98, 0.05), transparent);
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(94, 234, 212, 0.08), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 100%, rgba(94, 234, 212, 0.05), transparent);
   pointer-events: none;
   z-index: 0;
 }
@@ -202,7 +202,7 @@ body::before {
   padding: 1rem 1.75rem;
   border: none;
   border-radius: var(--radius-md);
-  background: linear-gradient(135deg, var(--accent), #b8944f);
+  background: linear-gradient(135deg, var(--accent), #2dd4bf);
   color: var(--bg-deep);
   font-size: 0.95rem;
   font-weight: 500;
@@ -230,7 +230,7 @@ body::before {
 
 .add-todo__btn:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 4px 20px rgba(201, 169, 98, 0.4);
+  box-shadow: 0 4px 20px rgba(94, 234, 212, 0.4);
 }
 
 .add-todo__btn:active:not(:disabled) {
