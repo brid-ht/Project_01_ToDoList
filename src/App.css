@@ -1,16 +1,17 @@
 /* 极简待办清单 - 主样式 */
 
 :root {
-  --bg: #f8fafc;
+  --bg: #f6faf7;
   --surface: #ffffff;
-  --border: #e2e8f0;
-  --text: #1e293b;
-  --text-muted: #64748b;
-  --accent: #5b7c99;
-  --accent-hover: #4a6a85;
-  --done: #94a3b8;
+  --border: #d9e4dc;
+  --text: #203127;
+  --text-muted: #5a6d60;
+  --accent: #4f7d68;
+  --accent-hover: #3f6655;
+  --done: #8fa496;
   --danger: #dc2626;
   --danger-hover: #b91c1c;
+  --danger-bg: #fff5f4;
   --radius: 12px;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
   --shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -63,7 +64,7 @@ body {
 
 .app__error {
   padding: 0.75rem 1rem;
-  background: #fef2f2;
+  background: var(--danger-bg);
   color: var(--danger);
   border-radius: var(--radius);
   font-size: 0.9rem;
@@ -253,6 +254,6 @@ body {
 
 .todo-item__delete:hover {
   color: var(--danger);
-  background: #fef2f2;
+  background: var(--danger-bg);
   opacity: 1;
 }
