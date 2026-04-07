@@ -1,14 +1,14 @@
 /* 极简待办清单 - 主样式 */
 
 :root {
-  --bg: #f4f8f4;
+  --bg: #f6f8f1;
   --surface: #ffffff;
-  --border: #d6e3da;
+  --border: #d9e2cf;
   --text: #1f2d24;
-  --text-muted: #607164;
-  --accent: #2f7a63;
-  --accent-hover: #255f4d;
-  --done: #7a9687;
+  --text-muted: #5f6f60;
+  --accent: #2f6a45;
+  --accent-hover: #255337;
+  --done: #5f7765;
   --danger: #dc2626;
   --danger-hover: #b91c1c;
   --radius: 12px;
