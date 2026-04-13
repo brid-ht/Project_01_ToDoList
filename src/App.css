@@ -1,14 +1,22 @@
 /* 极简待办清单 - 主样式 */
 
 :root {
+<<<<<<< HEAD
   --bg: #f4f8f4;
+=======
+  --bg: #e3f0ff;
+>>>>>>> chore/header-task-summary
   --surface: #ffffff;
   --border: #d6e3da;
   --text: #1f2d24;
   --text-muted: #607164;
   --accent: #2f7a63;
   --accent-hover: #255f4d;
+<<<<<<< HEAD
   --done: #7a9687;
+=======
+  --done: #8ea596;
+>>>>>>> chore/header-task-summary
   --danger: #dc2626;
   --danger-hover: #b91c1c;
   --radius: 12px;
@@ -49,6 +57,21 @@ body {
   margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+.app__subtitle {
+  margin: 0.5rem 0 0;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.app__summary {
+  margin: 0.6rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+>>>>>>> chore/header-task-summary
 .app__main {
   display: flex;
   flex-direction: column;
