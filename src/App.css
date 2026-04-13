@@ -1,14 +1,14 @@
 /* 极简待办清单 - 主样式 */
 
 :root {
-  --bg: #f8fafc;
+  --bg: #e3f0ff;
   --surface: #ffffff;
-  --border: #e2e8f0;
-  --text: #1e293b;
-  --text-muted: #64748b;
-  --accent: #5b7c99;
-  --accent-hover: #4a6a85;
-  --done: #94a3b8;
+  --border: #d6e3da;
+  --text: #1f2d24;
+  --text-muted: #607164;
+  --accent: #2f7a63;
+  --accent-hover: #255f4d;
+  --done: #8ea596;
   --danger: #dc2626;
   --danger-hover: #b91c1c;
   --radius: 12px;
@@ -69,7 +69,7 @@ body {
 
 .app__error {
   padding: 0.75rem 1rem;
-  background: #fef2f2;
+  background: #fff4f4;
   color: var(--danger);
   border-radius: var(--radius);
   font-size: 0.9rem;
